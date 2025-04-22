@@ -5,172 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kiyan Pourazar</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-color-light: #f9f9f9;
-      --text-color-light: #2c2c2c;
-      --card-bg-light: #fff;
+  <link rel="stylesheet" href="style.css">
 
-      --bg-color-dark: #1e1e1e;
-      --text-color-dark: #f0f0f0;
-      --card-bg-dark: #2c2c2c;
-    }
-
-    html[data-theme='light'] body {
-      background: var(--bg-color-light);
-      color: var(--text-color-light);
-    }
-
-    html[data-theme='dark'] body {
-      background: var(--bg-color-dark);
-      color: var(--text-color-dark);
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
-    }
-
-    body {
-      transition: background 0.3s, color 0.3s;
-    }
-
-    header {
-      text-align: center;
-      padding: 30px 20px;
-      background: var(--card-bg-light);
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-      /*position: sticky;*/
-      /*top: 0;*/
-      z-index: 1000;
-    }
-    html[data-theme='dark'] header {
-      background: var(--card-bg-dark);
-    }
-
-    .theme-toggle {
-      position: absolute;
-      top: 15px;
-      right: 20px;
-      background: none;
-      border: none;
-      font-size: 20px;
-      cursor: pointer;
-    }
-
-    .avatar {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      background-image: url('my-photo.jpg');
-      background-size: cover;
-      background-position: center;
-      display: inline-block;
-      margin-bottom: 10px;
-    }
-
-    .info div {
-      font-size: 18px;
-      margin-top: 4px;
-    }
-
-    .socials {
-      margin: 15px 0;
-    }
-    .socials a {
-      margin: 5px;
-      display: inline-block;
-    }
-
-    nav {
-      display: flex;
-      justify-content: center;
-      background: var(--card-bg-light);
-      padding: 12px 0;
-      box-shadow: 0 1px 6px rgba(0,0,0,0.1);
-      /*position: sticky;*/
-      /*top: 160px;*/
-      z-index: 999;
-    }
-    html[data-theme='dark'] nav {
-      background: var(--card-bg-dark);
-    }
-
-    nav button {
-      background: none;
-      border: none;
-      font-size: 18px;
-      margin: 0 20px;
-      cursor: pointer;
-      font-weight: 600;
-      color: inherit;
-      transition: color 0.3s;
-    }
-    nav button.active {
-      color: #0077b5;
-    }
-
-    .content {
-      padding: 30px;
-    }
-
-    section {
-      display: none;
-    }
-    section.active {
-      display: block;
-    }
-
-    .card {
-      background: var(--card-bg-light);
-      border-radius: 12px;
-      padding: 30px;
-      margin-bottom: 30px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.07);
-    }
-    html[data-theme='dark'] .card {
-      background: var(--card-bg-dark);
-    }
-
-    .experience-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 20px;
-      margin-bottom: 20px;
-    }
-    .experience-item img {
-      width: 60px;
-      height: 60px;
-      object-fit: contain;
-    }
-    .projects-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 20px;
-      margin-bottom: 20px;
-    }
-    .projects-item img {
-      width: 60px;
-      height: 60px;
-      object-fit: contain;
-    }
-
-    .skills-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 10px;
-    }
-    .skills-list span {
-      background-color: #0077b5;
-      color: white;
-      padding: 6px 12px;
-      border-radius: 20px;
-      font-size: 14px;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -254,7 +90,7 @@
         <h2>Projects</h2>
 
         <div class="projects-item">
-          <img src="online-shop.png" alt="Online-Shop">
+          <img src="Photos/online-shop.png" alt="Online-Shop">
           <div>
             <strong>Online Shop</strong><br>
             <small>Winter 2025 | 1 week</small><br>
@@ -268,6 +104,15 @@
             <strong>Bank System</strong><br>
             <small>2025 - 2025 | 1 week</small><br>
             Complete system for banks - final project of Database.
+          </div>
+        </div>
+
+        <div class="projects-item">
+          <img src="https://samad.aut.ac.ir/styles/newui/images/logo.png" alt="Robot">
+          <div>
+            <strong>University gym and food robot</strong><br>
+            <small>2024 - 2024 | 2 days</small><br>
+            Robot that can sign up university samad gym times.
           </div>
         </div>
 
@@ -296,11 +141,56 @@
       <div class="card">
         <h2>Experiences</h2>
         <div class="experience-item">
-          <img src="ACPC.jpeg" alt="ACPC">
+          <img src="Photos/LinuxFest.JPG" alt="LinuxFest">
+          <div>
+            <strong>LinuxFest Executive Team</strong><br>
+            <small>2025 - 2025 | 1 month</small><br>
+            Presenting the LinuxFest at Amirkabir University.
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <img src="Photos/AAISS.JPG" alt="AAISS">
+          <div>
+            <strong>AAISS Presenter </strong><br>
+            <small>2025 - 2025 | 1 month</small><br>
+            Presenting the Amirkabir Artificial Intelligence Student Summit at Amirkabir University.
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <img src="Photos/Emit.JPG" alt="Emit">
+          <div>
+            <strong>Emit Executive Team</strong><br>
+            <small>2025 - 2025 | 1 month</small><br>
+            Presenting the Emit at Amirkabir University.
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <img src="Photos/ACPC.jpeg" alt="ACPC">
           <div>
             <strong>ACPC Executive Head</strong><br>
             <small>2024 - 2025 | 6 month</small><br>
             Holding the ACPC International Competition at Amirkabir University.
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <img src="Photos/AAISS.JPG" alt="AAISS">
+          <div>
+            <strong>AAISS Presenter </strong><br>
+            <small>2024 - 2024 | 1 month</small><br>
+            Presenting the Amirkabir Artificial Intelligence Student Summit at Amirkabir University.
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <img src="Photos/ACPC.jpeg" alt="ACPC">
+          <div>
+            <strong>ACPC Support and Executive Team</strong><br>
+            <small>2023 - 2023 | 2 month</small><br>
+            Presenting the ACPC International Competition at Amirkabir University.
           </div>
         </div>
 

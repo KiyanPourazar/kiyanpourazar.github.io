@@ -103,6 +103,9 @@
     html[data-theme='dark'] nav button.active {
       color: #66b2ff;
     }
+    html[data-theme='light'] nav button.active {
+      color: #005a9c;
+    }
     .content {
       padding: 30px;
     }

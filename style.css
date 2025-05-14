@@ -101,11 +101,9 @@
       transition: color 0.3s;
     }
     nav button.active {
-      color: #005a9c;
+      color: #0077b5;
     }
-    html[data-theme='dark'] nav button.active {
-      color: #66b2ff;
-    }
+
     .content {
       padding: 30px;
     }
@@ -158,12 +156,9 @@
       margin-top: 10px;
     }
     .skills-list span {
-      background-color: #005a9c; 
-      color: #ffffff;
+      background-color: #0077b5;
+      color: white;
       padding: 6px 12px;
       border-radius: 20px;
       font-size: 14px;
-    }
-    nav button:hover {
-      color: #005a9c;
     }

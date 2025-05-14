@@ -6,13 +6,14 @@
   <title>Kiyan Pourazar</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
   <header>
     <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
     <div class="avatar"></div>
     <div class="info">
-      <h1>Kiyan Pourazar</h1>
+      <div><strong>Kiyan Pourazar</strong></div>
       <div>Computer Engineering</div>
       <div>Amirkabir University of Technology</div>
     </div>
@@ -39,30 +40,49 @@
   </header>
 
   <nav>
-    <button onclick="showTab('home')" id="btn-home" class="active" aria-pressed="true">Home</button>
+    <button onclick="showTab('home')" id="btn-home" class="active">Home</button>
     <button onclick="showTab('projects')" id="btn-projects">Projects</button>
     <button onclick="showTab('experiences')" id="btn-experiences">Experiences</button>
   </nav>
-  
-  <main class="content">
+
+  <div class="content">
     <section id="home" class="active">
       <div class="card">
         <h2>About Me</h2>
         <p>
         Hi! I'm Kiyan — a curious mind with a passion for learning and exploring new things. I'm Studying Computer Engineering Student at Amirkabir University of Technology (Tehran Polytechnic). 
         I'm into music and play the guitar in my free time.
-        I'm also a swimmer and enjoy staying active. I have a deep interest in cars, hardware, networking, and artificial intelligence.
+         I'm also a swimmer and enjoy staying active.I have a deep interest in cars, hardware, networking, and artificial intelligence.
         I love diving into tech topics and constantly expanding my knowledge. Whether it's building something from scratch or understanding how systems work,
-        I'm always up for the challenge. I'm always looking to grow, learn, and connect with like-minded people.
+         I'm always up for the challenge. I'm always looking to grow, learn, and connect with like-minded people.
         </p>
       </div>
       <div class="card">
         <h2>Skills</h2>
         <div class="skills-list">
-          <span>Python</span><span>Java</span><span>C</span><span>HTML & CSS</span><span>React</span><span>Linux</span><span>Git</span><span>Docker</span><span>MATLAB</span><span>PowerPoint</span><span>Photoshop</span><span>PostgreSQL</span><span>Wireshark</span><span>Microsoft Word</span><span>AutoCAD</span><span>Go</span><span>Kubernetes</span><span>Excel</span>
+          <span>Python</span>
+          <span>Java</span>
+          <span>C</span>
+          <span>HTML & CSS</span>
+          <span>React</span>
+          <span>Linux</span>
+          <span>Git</span>
+          <span>Docker</span>
+          <span>MATLAB</span>
+          <span>PowerPoint</span>
+          <span>Photoshop</span>
+          <span>PostgreSQL</span>
+          <span>Wireshark</span>
+          <span>Microsoft Word</span>
+          <span>AutoCAD</span>
+          <span>Go</span>
+          <span>Kubernetes</span>
+          <span>Excel</span>
         </div>
       </div>
     </section>
+    <!-- Projects and Experiences sections remain unchanged -->
+  </div>
 
 
     <section id="projects">
@@ -79,7 +99,7 @@
         </div>
 
         <div class="projects-item">
-          <img src="https://static.vecteezy.com/system/resources/previews/021/944/628/non_2x/bank-logo-or-icon-design-on-white-background-illustration-vector.jpg" alt="Bank Project Photo">
+          <img src="https://static.vecteezy.com/system/resources/previews/021/944/628/non_2x/bank-logo-or-icon-design-on-white-background-illustration-vector.jpg" alt="Bank">
           <div>
             <strong>Bank System</strong><br>
             <small>2025 - 2025 | 1 week</small><br>
@@ -88,7 +108,7 @@
         </div>
 
         <div class="projects-item">
-          <img src="https://samad.aut.ac.ir/styles/newui/images/logo.png" alt="University gym and food auto reservation">
+          <img src="https://samad.aut.ac.ir/styles/newui/images/logo.png" alt="Robot">
           <div>
             <strong>University gym and food robot</strong><br>
             <small>2024 - 2024 | 2 days</small><br>
@@ -97,7 +117,7 @@
         </div>
 
         <div class="projects-item">
-          <img src="https://seeklogo.com/images/T/twitter-icon-square-logo-108D17D373-seeklogo.com.png" alt="Twitter app project">
+          <img src="https://seeklogo.com/images/T/twitter-icon-square-logo-108D17D373-seeklogo.com.png" alt="Twitter">
           <div>
             <strong>Twitter</strong><br>
             <small>2023 - 2023 | 1 month</small><br>
@@ -106,7 +126,7 @@
         </div>
 
         <div class="projects-item">
-          <img src="https://www.creativefabrica.com/wp-content/uploads/2020/02/11/Food-Logo-Graphics-1-71-580x386.jpg" alt="online system for university cafeteria project">
+          <img src="https://www.creativefabrica.com/wp-content/uploads/2020/02/11/Food-Logo-Graphics-1-71-580x386.jpg" alt="self">
           <div>
             <strong>online system for university cafeteria</strong><br>
             <small>2022 - 2022 | 1 month</small><br>
@@ -121,7 +141,7 @@
       <div class="card">
         <h2>Experiences</h2>
         <div class="experience-item">
-          <img src="Photos/LinuxFest.JPG" alt="LinuxFest event logo">
+          <img src="Photos/LinuxFest.JPG" alt="LinuxFest">
           <div>
             <strong>LinuxFest Executive Team</strong><br>
             <small>2025 - 2025 | 1 month</small><br>
@@ -130,7 +150,7 @@
         </div>
 
         <div class="experience-item">
-          <img src="Photos/AAISS.JPG" alt="AAISS event logo">
+          <img src="Photos/AAISS.JPG" alt="AAISS">
           <div>
             <strong>AAISS Presenter </strong><br>
             <small>2025 - 2025 | 1 month</small><br>
@@ -139,7 +159,7 @@
         </div>
 
         <div class="experience-item">
-          <img src="Photos/Emit.JPG" alt="Emit event logo">
+          <img src="Photos/Emit.JPG" alt="Emit">
           <div>
             <strong>Emit Executive Team</strong><br>
             <small>2025 - 2025 | 1 month</small><br>
@@ -148,7 +168,7 @@
         </div>
 
         <div class="experience-item">
-          <img src="Photos/ACPC.jpeg" alt="ACPC event logo">
+          <img src="Photos/ACPC.jpeg" alt="ACPC">
           <div>
             <strong>ACPC Executive Head</strong><br>
             <small>2024 - 2025 | 6 month</small><br>
@@ -157,7 +177,7 @@
         </div>
 
         <div class="experience-item">
-          <img src="Photos/AAISS.JPG" alt="AAISS event logo">
+          <img src="Photos/AAISS.JPG" alt="AAISS">
           <div>
             <strong>AAISS Presenter </strong><br>
             <small>2024 - 2024 | 1 month</small><br>
@@ -166,7 +186,7 @@
         </div>
 
         <div class="experience-item">
-          <img src="Photos/ACPC.jpeg" alt="ACPC event logo">
+          <img src="Photos/ACPC.jpeg" alt="ACPC">
           <div>
             <strong>ACPC Support and Executive Team</strong><br>
             <small>2023 - 2023 | 2 month</small><br>
@@ -175,7 +195,7 @@
         </div>
 
         <div class="experience-item">
-          <img src="https://aut.ac.ir/templates/tmpl_modern01/images/logo_fa.png" alt="AUT B.Sc logo">
+          <img src="https://aut.ac.ir/templates/tmpl_modern01/images/logo_fa.png" alt="AUT B.Sc">
           <div>
             <strong>Amirkabir University of Technology (Tehran Polytechnic)</strong><br>
             <small>2022 - Present</small><br>
